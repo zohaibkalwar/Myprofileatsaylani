@@ -461,23 +461,117 @@
 //  }else ("Please Enter Correct Time")
 
 
-/////////// Chapter 14-16 ***** Task # 1 \\\\\\\\\\\\\
-    
+/////////// Chapter 14-16 ***** Task # 10 \\\\\\\\\\\\\
+// var students = ['zohaib','ihsan','imran','wajahat','ali','abbasi','hassan','syed'];
+// document.write(students.sort());
+
+/////////// Chapter 14-16 ***** Task # 11 \\\\\\\\\\\\\
+// var cities = ['Karachi','Lahore','Islamabad','Quetta','Sukkur'];
+
+
+/////////// Chapter 14-16 ***** Task # 12 \\\\\\\\\\\\\
+// var arr = ["This ","is ","my ","cat "];
+// document.write(arr[0] + arr[1] + arr[2] + arr[3] );
+
+/////////// Chapter 14-16 ***** Task # 13 \\\\\\\\\\\\\
+// var devices = ['Key','ihsan','Mouse','printer','laptop','device','wire','screens'];
+// for( i=0; i<= 0; i++){
+//     document.write(devices,"<BR>");
+//}
+
+/////////// Chapter 14-16 ***** Task # 15 \\\\\\\\\\\\\
+// var phone = ['Nokia','Samsung','Huawei','Apple','Techno'];
+// document.write("<select> ")
+// for(var i = 0; i< phone.length; i++){
+//     document.write("<option> " + phone[i] + "</option>")
+// }document.write("</section>")
 
 
 
+/////////// Chapter 17-20 ***** Task # 1 \\\\\\\\\\\\\
+// var multidimensional = emptyarry();
 
 
+/////////// Chapter 17-20 ***** Task # 2 \\\\\\\\\\\\\
+// var gfg = new Array(3); 
+// for (var i = 0; i < gfg.length; i++) { 
+//     gfg[i] = new Array(3); 
+// }   
+// var h = 0; 
+// for (var i = 0; i < 3; i++) { 
+//     for (var j = 0; j < 3; j++) { 
+//         gfg[i][j] = h++; 
+//     } 
+// } 
+// for (var i = 0; i < 3; i++) { 
+//     for (var j = 0; j < 3; j++)    { 
+//         document.write(gfg[i][j] + " "); 
+//     } 
+//     document.write("<br>"); 
+// }  
 
 
+/////////// Chapter 17-20 ***** Task # 1 \\\\\\\\\\\\\
+// var numaric = 10;
+// for(var i = 1; i<= numaric; i++){
+//     document.write(i,"<br>")
+// }
 
 
+/////////// Chapter 17-20 ***** Task # 4 \\\\\\\\\\\\\
+// var table1 = +prompt("Enter a number to show its multiplication table");
+// var tablelent = +prompt("Enter length Multiplication table");
+// for(i =1; i<= tablelent; i++){
+//     document.write(table1 + " X " + i + " = " + i*table1 +"<br>")
+// }
 
 
+/////////// Chapter 17-20 ***** Task # 5 \\\\\\\\\\\\\
+// var fruits = ['Apple','Mango','Banana','Strawberry','Orange','Grapes'];
+// for(var i = 0; i<= fruits.length; i++){
+//     document.write("Element at index " + i + " is "+ fruits[i] + "<br>")
+// }
+
+/////////// Chapter 17-20 ***** Task # 6 \\\\\\\\\\\\\
+// var counting = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+// for(var i = 1; i<=counting.length; ++i){
+//     document.write(i + ',')
+// }
+// var reverse = counting.reverse()
+// document.write('<Br>',reverse, "<br>")
+
+// for (var counting=0; counting<=15; counting++) {
+//     if (counting % 2 === 0) {
+//             document.write(counting + ",");   
+//     }
+// }
+
+/////////// Chapter 17-20 ***** Task # 7 \\\\\\\\\\\\\
+// var items = ['Cake','Gum','Candy','Chew','CupKake','wispy','freshup'];
+// var search = prompt("Search Item");
+// if(items.indexOf(search) !== -1){
+//     alert("Yes " + search + " is Available")
+// }else{alert("No " + search + " Item is Empty")}
+
+/////////// Chapter 17-20 ***** Task # 8 \\\\\\\\\\\\\
+// var number = [88,33,44,55,66,77,99];
+// var entry = +prompt("Enter your Highest Number")
+// if(number >= entry){
+//     alert(number)
+// }
 
 
+/////////// Chapter 17-20 ***** Task # 9 \\\\\\\\\\\\\
+// var number = [88,33,44,55,66,77,99];
+// var entry = +prompt("Enter your Lowest Number")
+// if(number <= entry){
+//     alert(number)
+// }
 
 
-
-
-
+/////////// Chapter 17-20 ***** Task # 10 \\\\\\\\\\\\\
+// var numb = 100;
+// for(var i=0; i<=numb; numb+5){
+//     alert(numb[i])
+//     break
+// }
