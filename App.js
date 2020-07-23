@@ -575,3 +575,44 @@
 //     alert(numb[i])
 //     break
 // }
+
+/////////// Chapter 21-25 ***** Task # 1 \\\\\\\\\\\\\
+// var firstname = prompt("Please enter your first name", " Zohaib");
+// var lastname = prompt("Please enter your Last name", " Hassan");
+// if (firstname+lastname != null) {
+//   alert("Hello" +firstname+lastname)
+// }
+
+/////////// Chapter 21-25 ***** Task # 2 \\\\\\\\\\\\\
+// var mobo = +prompt("Enter your Faviort mobile name");
+// function count(){
+//     alert('My Favirot moible is '+mobo,"Strings is "+ mobo.value.length)
+// }
+
+
+/////////// Chapter 21-25 ***** Task # 3 \\\\\\\\\\\\\
+// const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+// const searchTerm = 'dog';
+// const indexOfFirst = paragraph.indexOf(searchTerm);
+// var searching = document.getElementById('chapter2125to3');
+
+const txt = +prompt("Enter searched TXT");
+const searched = +prompt("Enter Searching")
+document.write(txt.indexOf(searched))
+
+
+//  document.write(ltrsearch1.indexof(ltrsearch))
+
+// document.getElementById("chapter2125to3").innerHTML = indexOfFirst;
+// console.log(`The index of the first "${searchTerm}" from the beginning is ${indexOfFirst}`);
+
+
+//  alert(str.indexOf());
+//  //   var word = str.indexOf("n");
+// //   document.getElementById("demo").innerHTML = word;
+
+// var items = ['Cake','Gum','Candy','Chew','CupKake','wispy','freshup'];
+// var search = prompt("Search Item");
+// if(items.indexOf(search) !== -1){
+//     alert("Yes " + search + " is Available")
+// }else{alert("No " + search + " Item is Empty")}
